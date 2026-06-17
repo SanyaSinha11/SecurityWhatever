@@ -1,0 +1,9 @@
+# **Note:**
+
+1. In web security, a **sink** is a potentially dangerous function or DOM object that executes, renders, or processes data. If untrusted input (the source) reaches a sink without proper validation or sanitization, it can lead to security vulnerabilities.
+   
+2. **Petabytes** -
+    A unit of digital information storage that represents one quadrillion bytes, or 1,000 terabytes. It is a massive amount of data storage and is commonly used to measure the capacity of hard drives, data centers, and cloud storage systems.
+   
+3. **Content Security Policy (CSP)** - 
+   A browser security rule that a website sends to tell the browser what kind of content is allowed to load and run (like scripts, iframes, images, etc.). It helps stop attacks like XSS and iframe injection by blocking unsafe or unexpected content, even if a bug exists in the site. Think of CSP as a safety net: it doesn’t fix the bug, but it reduces the damage by limiting what the browser is allowed to execute or embed.
