@@ -145,6 +145,7 @@ In short, **application security is the process of making software safe to use b
    
 ### 10. SonarQube
    A Static Application Security Testing (SAST) tool.
+   It is an automated static code analysis platform used to evaluate and ensure source code quality, security, and maintainability.
    
    **Why is it used?**
    - Source code review
