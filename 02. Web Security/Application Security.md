@@ -5,6 +5,10 @@ Think of an application as a house. The features of the application, such as log
 
 In short, **application security is the process of making software safe to use by identifying, preventing, and fixing security weaknesses before they can be exploited**. Its primary goal is to protect the application, the data it processes, and the users who rely on it. 
 
+OR
+
+"Application Security is the practice of identifying, preventing, and fixing security vulnerabilities throughout the software development lifecycle. It includes secure design, secure coding, security testing, vulnerability management, and continuous monitoring to protect applications from attacks."
+
 ---
 # Tools Used
 
