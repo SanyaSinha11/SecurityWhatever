@@ -1,8 +1,9 @@
 Given: URL/Domain
 
-# Landing Page
+# Pages
 - Login Page
 - Home Page
+- Payment Gateway
 
 ## Login Page
 1. View Page Source Code
@@ -57,7 +58,12 @@ Given: URL/Domain
      - Redirects
      - Path Traversal
      - IDOR
-   
+
+## Payment Gateway
+1. Amount Manipulation
+2. Receiver Manipulation
+3. Type/Mode of Payment Manipulation
+
 ---
 # Questions
 1. How will manually pen test a payment gateway page?
