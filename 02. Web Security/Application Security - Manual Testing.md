@@ -1,5 +1,33 @@
-Given: URL/Domain
+# Universal Manual Testing Methodology
 
+Regardless of vulnerability type, start with:
+```
+1. Browse the application
+2. Map functionality
+3. Identify inputs
+4. Intercept requests in Burp
+5. Modify parameters
+6. Observe responses
+7. Compare behavior
+8. Verify impact
+```
+
+Always look for:
+##### User-controlled inputs
+- URL parameters
+- POST body parameters
+- JSON parameters
+- Cookies
+- Headers
+- File uploads
+- Search bars
+- Profile fields
+- Feedback forms
+
+These are your attack surfaces.
+
+---
+Given: URL/Domain
 # Pages
 - Login Page
 - Home Page
