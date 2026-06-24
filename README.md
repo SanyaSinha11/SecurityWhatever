@@ -6,42 +6,65 @@ A progressive security learning curriculum covering foundational concepts throug
 
 ```
 Start from the Basics/
-├── 00. Getting Started/  # Bug bounty basics & security terminology
-├── 01. Fundamentals/     # Threat modeling, web/app servers, proxies
-├── 02. Web Security/     # Client-side & server-side vulnerabilities
-├── 03. Network Security/ # TLS, POODLE, network attacks
-└── Tools/                # AST & Sandbox testing tools
+├── 00. Getting Started/           # Bug bounty, security terminology & OSI model
+├── 01. Fundamentals - Networking/ # Web page rendering & networking fundamentals
+├── 02. Fundamentals - Sec_Related/# Threat modeling, web/app servers, proxies
+├── 03. Web Security/              # Client-side & server-side vulnerabilities
+├── 04. Network Security/          # TLS, POODLE, network attacks
+├── Interview_Prep/                # Application security interview questions
+└── Tools/                         # AST & Sandbox testing tools
 ```
 
 ## 📚 Content Overview
 
 ### **00. Getting Started**
-Introduction to bug bounty programs and essential security terminology including sinks, Content Security Policy (CSP), and data units.
+Foundation for security learning:
+- Security terminology and concepts (sinks, CSP, data units)
+- Bug bounty fundamentals
+- OSI Model overview
+- OWASP Top 10 vulnerabilities
 
-### **01. Fundamentals**
-Core security concepts covering threat modeling methodologies, web server vs application server architecture, and proxy systems usage.
+### **01. Fundamentals - Networking**
+Core networking concepts:
+- Web page loading and rendering processes
+- How browsers request and display content
 
-### **02. Web Security**
-Comprehensive coverage of web vulnerabilities:
+### **02. Fundamentals - Sec_Related**
+Security-focused fundamentals:
+- Threat modeling methodologies
+- Web server vs application server architecture
+- Proxy systems and usage
+
+### **03. Web Security**
+Comprehensive web vulnerability coverage:
 - **Client-Side Topics:** XSS, HTML Injection, iFrame Injection, Arbitrary Text Injection
 - **Server-Side Topics:** *(In development)*
 - Redirect vulnerabilities and attack patterns
+- Application security concepts and manual testing approaches
 
-### **03. Network Security**
+### **04. Network Security**
 Network-level security protocols and attacks:
 - TLS 1.2 vs TLS 1.3 comparison
 - POODLE Attack analysis
 
+### **Interview_Prep**
+Application security interview preparation:
+- Comprehensive interview questions and answers
+- Practical interview scenarios and exercises
+
 ### **Tools**
-Practical security testing tooling guides:
+Security testing tooling guides:
 - **AST Tools** - Application Security Testing tooling
 - **Sandbox Tools** - Sandbox testing for WIZ, Oligo, and end-to-end automation
 
 ## 🚀 Quick Start
 
 1. **New to Security?** → Start with `00. Getting Started/`
-2. **Exploring vulnerabilities?** → Jump to `02. Web Security/`
-3. **Setting up tools?** → Check out `Tools/`
+2. **Learning networking basics?** → Check `01. Fundamentals - Networking/`
+3. **Understanding security concepts?** → Explore `02. Fundamentals - Sec_Related/`
+4. **Exploring web vulnerabilities?** → Jump to `03. Web Security/`
+5. **Preparing for interviews?** → Review `Interview_Prep/`
+6. **Setting up tools?** → Check out `Tools/`
 
 ## 📖 Documentation Philosophy
 
