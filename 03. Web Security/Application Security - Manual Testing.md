@@ -93,6 +93,34 @@ Given: URL/Domain
 3. Type/Mode of Payment Manipulation
 
 ---
+# Most Common Path to Follow
+
+```
+1. XSS
+   - Reflected
+   - Stored
+   - DOM
+
+2. CSRF
+
+3. IDOR
+
+4. File Upload Vulnerabilities
+
+5. Path Traversal
+
+6. SSRF
+
+7. CORS Misconfiguration
+
+8. SSTI
+
+9. Authentication & Session Weaknesses
+
+10. Business Logic Vulnerabilities
+```
+
+---
 # Questions
 1. How will manually pen test a payment gateway page?
 2. 
