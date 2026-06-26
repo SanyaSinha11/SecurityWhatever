@@ -12,7 +12,7 @@
 ### Q5. Which OWASP vulnerability is most common?
 "Broken Access Control is currently considered one of the most common and impactful vulnerabilities because it can allow users to access resources or perform actions they should not be authorized to."
 
-### Q6. What is SQL injection?
+### Q6. What is SQL injection and how do you prevent it?
 "SQL Injection occurs when user input is included in SQL queries without proper validation or parameterization, allowing attackers to modify database queries."
 *Example:*
 Instead of:
@@ -24,22 +24,20 @@ Attacker sends:
 ```
 1' OR '1'='1
 ```
-
-### Q7. How do you prevent SQL Injection?
+##### **Prevention:**
 - Parameterized queries
 - Prepared statements
 - Input validation and sanitization
 - Least privilege database accounts
 - WAF
 
-### Q8. What is XSS?
+### Q8. What is XSS and how do you prevent it?
 "Cross-Site Scripting occurs when attacker-controlled JavaScript executes inside another user's browser."
 ##### Types
 - Reflected XSS
 - Stored XSS
 - DOM XSS
-
-### Q9. How do you prevent XSS?
+##### **Prevention:**
 - Output encoding
 - Input validation
 - Content Security Policy (CSP)
@@ -115,7 +113,18 @@ Using:
 - PBKDF2
 with salting.
 
-### Q20. What is Secure SDLC?
+### Q20. Can encrypted data still be modified?
+Yes, encryption alone does not guarantee integrity.
+An attacker might alter encrypted data, even if they can't understand it.
+
+To detect tampering, protocols use integrity mechanisms such as **HMAC** or authenticated encryption modes (e.g., AES-GCM).
+
+### Q21. Why do websites use HTTPS instead of just encryption?
+Because HTTPS doesn't only encrypt data—it also authenticates the server and verifies the integrity of the data being transmitted.
+
+Without authentication, an attacker could impersonate the website and trick users into sending sensitive information.
+
+### Q22. What is Secure SDLC?
 "Secure SDLC integrates security activities into every stage of software development."
 ##### Stages
 Requirements
@@ -125,7 +134,7 @@ Requirements
 → Deployment
 → Maintenance
 
-### Q21. Security activities during SDLC?
+### Q23. Security activities during SDLC?
 - Threat modeling
 - Secure code review
 - SAST
@@ -133,47 +142,47 @@ Requirements
 - Penetration testing
 - Dependency scanning
 
-### Q22. What is SAST?
+### Q24. What is SAST?
 "Static Application Security Testing analyzes source code without running the application."
 *Example:*
 Semgrep
 SonarQube
 Checkmarx
 
-### Q23. What is DAST?
+### Q25. What is DAST?
 "Dynamic Application Security Testing analyzes a running application."
 *Example:*
 Burp Suite
 OWASP ZAP
 
-### Q24. What is SCA?
+### Q26. What is SCA?
 "Software Composition Analysis identifies vulnerable third-party dependencies."
 *Examples:*
 Snyk
 Dependabot
 
-### Q25. Difference between SAST and DAST.
+### Q27. Difference between SAST and DAST.
 | SAST        | DAST        |
 | ----------- | ----------- |
 | Source code | Running app |
 | Early SDLC  | Later SDLC  |
 | White-box   | Black-box   |
 
-### Q26. Why use Burp Suite?
+### Q28. Why use Burp Suite?
 "Burp Suite allows interception, modification, replay, and analysis of HTTP requests and responses."
 
-### Q27. Most used Burp modules?
+### Q29. Most used Burp modules?
 - Proxy
 - Repeater
 - Intruder
 - Decoder
 - Comparer
 
-### Q28. What is Repeater and Intruder?
+### Q30. What is Repeater and Intruder?
 **Repeater:** Allows manual modification and replay of requests.
 **Intruder:** Used for automated fuzzing and payload testing.
 
-### Q29. What is SonarQube and what can it detect?
+### Q31. What is SonarQube and what can it detect?
 "A static code analysis platform used to identify security issues, bugs, and code quality problems."
 ##### It can detect:
 - SQL Injection patterns
@@ -181,10 +190,10 @@ Dependabot
 - Weak cryptography
 - Security hotspots
 
-### Q30. What is shared responsibility model?
+### Q32. What is shared responsibility model?
 "Cloud providers secure the cloud infrastructure, while customers secure their data, applications, configurations, and access."
 
-### Q31. Common AWS services?
+### Q33. Common AWS services?
 - IAM
 - CloudTrail
 - GuardDuty
@@ -192,16 +201,16 @@ Dependabot
 - WAF
 - KMS
 
-### Q32. What is IAM?
+### Q34. What is IAM?
 "IAM controls who can access cloud resources and what actions they can perform."
 
-### Q33. What is the principle of least privilege?
+### Q35. What is the principle of least privilege?
 "Users should only receive the minimum permissions necessary to perform their tasks."
 
-### Q34. What is DevSecOps?
+### Q36. What is DevSecOps?
 "DevSecOps integrates security into development and deployment pipelines."
 
-### Q35. How would you integrate security into CI/CD? Provide an example pipeline.
+### Q37. How would you integrate security into CI/CD? Provide an example pipeline.
 - SAST
 - SCA
 - Secret scanning
@@ -226,18 +235,12 @@ DAST
 ↓
 Production
 
-### Q36. What is Threat Modeling?
+### Q38. What is Threat Modeling?
 "A process of identifying threats during the design phase and implementing controls before development."
 
-### Q37. What is STRIDE?
-- Spoofing
-- Tampering
-- Repudiation
-- Information Disclosure
-- Denial of Service
-- Elevation of Privilege
+### Q39. What is STRIDE?
 
-### Q38. Explain Vulnerability Lifecycle.
+### Q40. Explain Vulnerability Lifecycle.
 Discovery
 ↓
 Validation
@@ -252,14 +255,14 @@ Retesting
 ↓
 Closure
 
-### Q39. How do you prioritize vulnerability?
+### Q41. How do you prioritize vulnerability?
 Based on:
 - CVSS score
 - Exploitability
 - Business impact
 - Asset criticality
 
-### Q40. You found a High vulnerability. What next?
+### Q42. You found a High vulnerability. What next?
 1. Validate finding.
 2. Assess impact.
 3. Create report.
@@ -268,8 +271,9 @@ Based on:
 6. Retest.
 7. Close.
 
-### Q41. Developer says vulnerability is not important. What do you do?
+### Q43. Developer says vulnerability is not important. What do you do?
 "Explain the technical and business impact, provide proof of concept, discuss risk, and work collaboratively to reach a remediation plan."
+
 
 ---
 # Other Questions:
