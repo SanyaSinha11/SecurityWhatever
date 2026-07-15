@@ -1,0 +1,15 @@
+- Shadow IT
+- WAF
+- Cloudflare
+- Cloudfront
+- Log4j
+- Drop Attack
+- protocol called Signaling System 7 (SS7)
+- Zero click attacks/vulnerabilities
+- Pharming
+- Typosquatting
+- Obscurity
+- HPing2 and HPing 3
+- PERA Model
+- SIEM Tools
+- 
