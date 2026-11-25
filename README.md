@@ -11,7 +11,7 @@ Start from the Basics/
 ├── 02. Fundamentals - Sec_Related/# Threat modeling, web/app servers, proxies
 ├── 03. Web Security/              # Client-side & server-side vulnerabilities
 ├── 04. Network Security/          # TLS, POODLE, network attacks
-├── Interview_Prep/                # Application security interview questions
+├── Interview_Prep/                # Security roles interview questions
 └── Tools/                         # AST & Sandbox testing tools
 ```
 
